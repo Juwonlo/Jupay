@@ -1,0 +1,20 @@
+{
+  "name": "jupay-monorepo",
+  "private": true,
+  "packageManager": "pnpm@9.15.4",
+  "scripts": {
+    "build": "turbo build",
+    "test": "turbo test",
+    "lint": "biome check .",
+    "lint:fix": "biome check --write .",
+    "clean": "turbo clean",
+    "typecheck": "turbo typecheck"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.0",
+    "turbo": "^2.3.0",
+    "typescript": "^5.7.0",
+    "vitest": "^2.1.0",
+    "tsup": "^8.3.0"
+  }
+}
